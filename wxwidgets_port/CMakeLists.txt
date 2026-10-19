@@ -1,4 +1,11 @@
 cmake_minimum_required(VERSION 3.16)
+
+# Static vcpkg triplet (e.g. x64-windows-static): also link the MSVC runtime
+# statically so the result is a single self-contained otla.exe
+if(VCPKG_TARGET_TRIPLET MATCHES "-static$")
+    set(CMAKE_MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>")
+endif()
+
 project(otla VERSION 2.2.5 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 11)
