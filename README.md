@@ -1,7 +1,7 @@
 # wxWidgets Port of O.T.L.A.
 
 This directory contains the wxWidgets port of the O.T.L.A. application from Borland C++ Builder 6.
-MSX part of code has been improved, hecen the 2.2.5 version.
+MSX part of code has been improved, hence the 2.2.5 version.
 Heavily assisted by AI.
 
 ## Building
