@@ -1,0 +1,114 @@
+# History and backup files
+.history
+*.bak
+*~
+*.swp
+*.swo
+
+# CMake build files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+*.cmake
+!CMakeLists.txt
+
+# Visual Studio build files and artifacts
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sdf
+*.opensdf
+*.db
+*.opendb
+*.tlog
+*.ilk
+*.pdb
+*.obj
+*.iobj
+*.exe
+*.dll
+*.lib
+*.exp
+*.pch
+*.idb
+*.ipch
+*.aps
+*.ncb
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+*.meta
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp_proj
+
+# Visual Studio directories
+.vs/
+.vscode/
+.idea/
+*.VC.db
+*.VC.VC.opendb
+
+# Build output directories
+Debug/
+Release/
+x64/
+Win32/
+otla.dir/
+*.dir/
+bin/
+obj/
+out/
+dist/
+
+
+# Borland C++ Builder files (keep source files, ignore project/build files)
+*.bpr
+*.bpg
+*.dsk
+*.tds
+*.map
+*.~*
+*.local
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+*.log
+
+# Configuration files (user-specific)
+*.ini
+*.local
+
+# OS-specific files
+Thumbs.db
+.DS_Store
+desktop.ini
+$RECYCLE.BIN/
+
+# Dependency directories
+vcpkg_installed/
+packages/
+node_modules/
+
+# Test output
+test_output/
+*.test
+
+# Other files to ignore
+.claude
+.cursor
